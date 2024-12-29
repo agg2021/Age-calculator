@@ -1,0 +1,35 @@
+#global variable
+Age = 0        Months = 0       Days = 0
+
+input
+calcDays(inAge)
+#establishing initial value 
+#local variable
+localDays = 0
+#calculating amount of days in age
+localDays = inAge * 365
+localDays = Days
+#end function
+
+calcMonths(inAge)
+#establishing initial value
+#local variable
+localMonths = 0
+#calculating amount  of months in age
+localMonths = inAge * 12
+localMonths = Months
+#Main code starts here ########################
+
+ageYears = int(“Age in years please: “))
+
+print("Your age in years is: ", ageYears)
+
+calcDays()
+
+print("Your age in days is: ", days)
+
+calcMonths()
+
+print("Your age in months is: ", months)
+
+#END of program ####################################
